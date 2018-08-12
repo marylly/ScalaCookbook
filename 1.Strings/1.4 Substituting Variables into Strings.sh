@@ -42,4 +42,7 @@ println(s2)
 
 println("%s is %d years old".format(name, age))
 
+val firstName = "Luis"
+val lastName = "Silva"
+
 override def toString: String = "%s %s, age %d".format(firstName, lastName, age)
